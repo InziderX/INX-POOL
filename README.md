@@ -103,7 +103,9 @@ Usage
 ##### Seriously
 Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
 
-****Be sure to use nvm -v 0.10.48**** Don't install nodejs globaly -----
+**** Be sure to use nvm -v 0.10.48 for specific project folder
+**** Delete .node-gyp folder in home and restart server if you get gyp error while npm intall/update 
+**** Don't use or install nodejs globaly
 
 
 [**Redis security warning**](http://redis.io/topics/security): be sure firewall access to redis - an easy way is to
