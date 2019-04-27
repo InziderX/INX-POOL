@@ -104,7 +104,7 @@ Usage
 Those are legitimate requirements. If you use old versions of Node.js or Redis that may come with your system package manager then you will have problems. Follow the linked instructions to get the last stable versions.
 
 **** Be sure to use nvm -v 0.10.48 for specific project folder
-**** Delete .node-gyp folder in home and restart server if you get gyp error while npm intall/update 
+**** Delete .node-gyp folder in home and restart server if you get gyp error while npm install/update 
 **** Don't use or install nodejs globaly
 
 
